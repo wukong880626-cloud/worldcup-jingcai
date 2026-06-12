@@ -1,0 +1,28 @@
+name: 每日更新赛果
+on:
+  schedule:
+    - cron: "5 16 * * *"   # UTC 16:05 = 北京时间 00:05
+    - cron: "5 4 * * *"    # UTC 04:05 = 北京时间 12:05（上午场补刀）
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: 拉取赛果并更新 data.js
+        run: python3 scripts/update_results.py
+      - name: 提交变更
+        run: |
+          git config user.name "wc-results-bot"
+          git config user.email "actions@github.com"
+          if ! git diff --quiet data.js; then
+            git add data.js
+            git commit -m "chore: 自动更新赛果 $(TZ=Asia/Shanghai date +%F)"
+            git push
+          else
+            echo "无变更"
+          fi
