@@ -115,6 +115,7 @@ def main():
                     free = [x for x in kos if x["stage"] == st and not x.get("espnId")]
                     if not free: continue
                     m = free[0]; m["espnId"] = eid; by_espn[eid] = m
+                before = dict(m)
                 bj = ko_utc.astimezone(BJ)
                 m["date"], m["t"] = bj.strftime("%Y-%m-%d"), bj.strftime("%H:%M")
                 m["home"], m["away"] = hc, ac
@@ -135,15 +136,17 @@ def main():
                         m["result"] = "H" if hg > ag else ("A" if hg < ag else "D")
                         m["score"] = f"{hg}-{ag}"
                     changed.append(f'{m["home"]} {m["score"]} {m["away"]}')
-                else:
+                elif m != before:
                     changed.append(f'[{m["stage"]}] {hc or "待定"} vs {ac or "待定"} @ {m["date"]} {m["t"]}')
         day += timedelta(days=1)
 
+    if not changed:
+        print("no changes"); return
     payload["updated"] = datetime.now(BJ).isoformat(timespec="seconds")
     out = "window.WC_DATA = " + json.dumps(payload, ensure_ascii=False, indent=1) + ";\n"
     json.loads(re.sub(r"^window\.WC_DATA\s*=\s*|;\s*$", "", out.strip()))  # 自检
     open(DATA, "w", encoding="utf-8").write(out)
-    print("updated entries:" if changed else "no changes", *changed[:40], sep="\n  ")
+    print("updated entries:", *changed[:40], sep="\n  ")
 
 if __name__ == "__main__":
     main()
