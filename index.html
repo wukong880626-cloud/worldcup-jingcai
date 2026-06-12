@@ -316,11 +316,8 @@ const TEAMS = {
 /* 赛程数据在 data.js（云端每日自动更新） */
 const MATCHES = window.WC_DATA.matches;
 
-/* ============ 排行榜（案场每日更新） ============ */
-const LEADERBOARD = [
- ["陈先生",24],["王女士",21],["李先生",18],["赵女士",15],["刘先生",12],
- ["周女士",12],["吴先生",9],["郑女士",9],["孙先生",6],["朱女士",6]
-];
+/* ============ 排行榜（案场每日更新，格式 ["称呼",积分]） ============ */
+const LEADERBOARD = [];
 
 /* ============ 状态 ============ */
 const LS = k=>JSON.parse(localStorage.getItem(k)||"null");
@@ -520,8 +517,9 @@ function renderBoard(){
   const rows=[...LEADERBOARD];
   if(profile) rows.push([profile.name+"（我）",s.pts]);
   rows.sort((a,b)=>b[1]-a[1]);
-  lbList.innerHTML = rows.slice(0,12).map((r,i)=>
-    `<div class="lbrow" ${r[0].includes("（我）")?'style="background:#FBF3DC"':''}><span class="rk">${i+1}</span><span>${r[0]}</span><span class="pts">${r[1]} 分</span></div>`).join("");
+  lbList.innerHTML = rows.length ? rows.slice(0,12).map((r,i)=>
+    `<div class="lbrow" ${r[0].includes("（我）")?'style="background:#FBF3DC"':''}><span class="rk">${i+1}</span><span>${r[0]}</span><span class="pts">${r[1]} 分</span></div>`).join("")
+    : `<div style="text-align:center;padding:28px 20px;font-size:13px;color:var(--ink2);letter-spacing:2px">🏆 虚位以待<br><span style="font-size:11px;letter-spacing:1px">竞猜开赛，第一个上榜的就是你</span></div>`;
   if(profile){
     myName.textContent=profile.name; myAv.textContent=profile.name[0];
     myPhone.textContent=profile.phone.replace(/(\d{3})\d{4}(\d{4})/,"$1****$2");
