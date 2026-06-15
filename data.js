@@ -1,5 +1,5 @@
 window.WC_DATA = {
- "updated": "2026-06-15T18:30:17+08:00",
+ "updated": "2026-06-16T03:53:49+08:00",
  "matches": [
   {
    "id": 1,
@@ -154,8 +154,8 @@ window.WC_DATA = {
    "home": "ESP",
    "away": "CPV",
    "venue": "亚特兰大",
-   "result": null,
-   "score": null
+   "result": "D",
+   "score": "0-0"
   },
   {
    "id": 14,
