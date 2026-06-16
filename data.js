@@ -1,5 +1,5 @@
 window.WC_DATA = {
- "updated": "2026-06-16T03:53:49+08:00",
+ "updated": "2026-06-16T17:32:52+08:00",
  "matches": [
   {
    "id": 1,
@@ -166,8 +166,8 @@ window.WC_DATA = {
    "home": "BEL",
    "away": "EGY",
    "venue": "温哥华",
-   "result": null,
-   "score": null
+   "result": "D",
+   "score": "1-1"
   },
   {
    "id": 15,
@@ -178,8 +178,8 @@ window.WC_DATA = {
    "home": "KSA",
    "away": "URU",
    "venue": "迈阿密",
-   "result": null,
-   "score": null
+   "result": "D",
+   "score": "1-1"
   },
   {
    "id": 16,
@@ -190,8 +190,8 @@ window.WC_DATA = {
    "home": "IRN",
    "away": "NZL",
    "venue": "洛杉矶",
-   "result": null,
-   "score": null
+   "result": "D",
+   "score": "2-2"
   },
   {
    "id": 17,
