@@ -1,5 +1,5 @@
 window.WC_DATA = {
- "updated": "2026-06-18T13:39:40+08:00",
+ "updated": "2026-06-19T02:32:33+08:00",
  "matches": [
   {
    "id": 1,
@@ -298,8 +298,8 @@ window.WC_DATA = {
    "home": "CZE",
    "away": "RSA",
    "venue": "亚特兰大",
-   "result": null,
-   "score": null
+   "result": "D",
+   "score": "1-1"
   },
   {
    "id": 26,
