@@ -1,5 +1,5 @@
 window.WC_DATA = {
- "updated": "2026-06-19T02:32:33+08:00",
+ "updated": "2026-06-19T17:10:00+08:00",
  "matches": [
   {
    "id": 1,
@@ -322,8 +322,8 @@ window.WC_DATA = {
    "home": "CAN",
    "away": "QAT",
    "venue": "温哥华",
-   "result": null,
-   "score": null
+   "result": "H",
+   "score": "6-0"
   },
   {
    "id": 28,
@@ -334,8 +334,8 @@ window.WC_DATA = {
    "home": "MEX",
    "away": "KOR",
    "venue": "瓜达拉哈拉",
-   "result": null,
-   "score": null
+   "result": "H",
+   "score": "1-0"
   },
   {
    "id": 29,
