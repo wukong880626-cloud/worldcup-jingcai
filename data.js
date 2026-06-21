@@ -1,5 +1,5 @@
 window.WC_DATA = {
- "updated": "2026-06-20T15:55:41+08:00",
+ "updated": "2026-06-21T16:39:31+08:00",
  "matches": [
   {
    "id": 1,
@@ -394,8 +394,8 @@ window.WC_DATA = {
    "home": "NED",
    "away": "SWE",
    "venue": "休斯敦",
-   "result": null,
-   "score": null
+   "result": "H",
+   "score": "5-1"
   },
   {
    "id": 34,
@@ -406,8 +406,8 @@ window.WC_DATA = {
    "home": "GER",
    "away": "CIV",
    "venue": "多伦多",
-   "result": null,
-   "score": null
+   "result": "H",
+   "score": "2-1"
   },
   {
    "id": 35,
@@ -418,8 +418,8 @@ window.WC_DATA = {
    "home": "ECU",
    "away": "CUW",
    "venue": "堪萨斯城",
-   "result": null,
-   "score": null
+   "result": "D",
+   "score": "0-0"
   },
   {
    "id": 36,
@@ -430,8 +430,8 @@ window.WC_DATA = {
    "home": "TUN",
    "away": "JPN",
    "venue": "蒙特雷",
-   "result": null,
-   "score": null
+   "result": "A",
+   "score": "0-4"
   },
   {
    "id": 37,
