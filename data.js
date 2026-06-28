@@ -1,5 +1,5 @@
 window.WC_DATA = {
- "updated": "2026-06-27T15:24:01+08:00",
+ "updated": "2026-06-28T14:14:39+08:00",
  "matches": [
   {
    "id": 1,
@@ -802,8 +802,8 @@ window.WC_DATA = {
    "home": "PAN",
    "away": "ENG",
    "venue": "纽约/新泽西",
-   "result": null,
-   "score": null
+   "result": "A",
+   "score": "0-2"
   },
   {
    "id": 68,
@@ -814,8 +814,8 @@ window.WC_DATA = {
    "home": "CRO",
    "away": "GHA",
    "venue": "费城",
-   "result": null,
-   "score": null
+   "result": "H",
+   "score": "2-1"
   },
   {
    "id": 69,
@@ -826,8 +826,8 @@ window.WC_DATA = {
    "home": "COL",
    "away": "POR",
    "venue": "迈阿密",
-   "result": null,
-   "score": null
+   "result": "D",
+   "score": "0-0"
   },
   {
    "id": 70,
@@ -838,8 +838,8 @@ window.WC_DATA = {
    "home": "COD",
    "away": "UZB",
    "venue": "亚特兰大",
-   "result": null,
-   "score": null
+   "result": "H",
+   "score": "3-1"
   },
   {
    "id": 71,
@@ -850,8 +850,8 @@ window.WC_DATA = {
    "home": "ALG",
    "away": "AUT",
    "venue": "堪萨斯城",
-   "result": null,
-   "score": null
+   "result": "D",
+   "score": "3-3"
   },
   {
    "id": 72,
@@ -862,20 +862,21 @@ window.WC_DATA = {
    "home": "JOR",
    "away": "ARG",
    "venue": "达拉斯",
-   "result": null,
-   "score": null
+   "result": "A",
+   "score": "1-3"
   },
   {
    "id": 73,
    "stage": "r32",
    "group": null,
    "date": "2026-06-29",
-   "t": null,
-   "home": null,
-   "away": null,
+   "t": "03:00",
+   "home": "RSA",
+   "away": "CAN",
    "venue": "待定",
    "result": null,
-   "score": null
+   "score": null,
+   "espnId": "760486"
   },
   {
    "id": 74,
