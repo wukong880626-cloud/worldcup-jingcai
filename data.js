@@ -1,5 +1,5 @@
 window.WC_DATA = {
- "updated": "2026-06-28T14:14:39+08:00",
+ "updated": "2026-06-29T17:04:50+08:00",
  "matches": [
   {
    "id": 1,
@@ -874,45 +874,48 @@ window.WC_DATA = {
    "home": "RSA",
    "away": "CAN",
    "venue": "待定",
-   "result": null,
-   "score": null,
+   "result": "A",
+   "score": "0-1",
    "espnId": "760486"
   },
   {
    "id": 74,
    "stage": "r32",
    "group": null,
-   "date": "2026-06-29",
-   "t": null,
-   "home": null,
-   "away": null,
+   "date": "2026-06-30",
+   "t": "01:00",
+   "home": "BRA",
+   "away": "JPN",
    "venue": "待定",
    "result": null,
-   "score": null
+   "score": null,
+   "espnId": "760487"
   },
   {
    "id": 75,
    "stage": "r32",
    "group": null,
    "date": "2026-06-30",
-   "t": null,
-   "home": null,
-   "away": null,
+   "t": "04:30",
+   "home": "GER",
+   "away": "PAR",
    "venue": "待定",
    "result": null,
-   "score": null
+   "score": null,
+   "espnId": "760489"
   },
   {
    "id": 76,
    "stage": "r32",
    "group": null,
    "date": "2026-06-30",
-   "t": null,
-   "home": null,
-   "away": null,
-   "venue": "待定",
+   "t": "09:00",
+   "home": "NED",
+   "away": "MAR",
+   "venue": "蒙特雷",
    "result": null,
-   "score": null
+   "score": null,
+   "espnId": "760488"
   },
   {
    "id": 77,
