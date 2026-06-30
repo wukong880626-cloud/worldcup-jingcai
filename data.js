@@ -1,5 +1,5 @@
 window.WC_DATA = {
- "updated": "2026-06-29T17:04:50+08:00",
+ "updated": "2026-06-30T15:59:00+08:00",
  "matches": [
   {
    "id": 1,
@@ -887,8 +887,8 @@ window.WC_DATA = {
    "home": "BRA",
    "away": "JPN",
    "venue": "待定",
-   "result": null,
-   "score": null,
+   "result": "H",
+   "score": "2-1",
    "espnId": "760487"
   },
   {
@@ -900,8 +900,8 @@ window.WC_DATA = {
    "home": "GER",
    "away": "PAR",
    "venue": "待定",
-   "result": null,
-   "score": null,
+   "result": "D",
+   "score": "1-1 (点球3-4)",
    "espnId": "760489"
   },
   {
@@ -913,45 +913,48 @@ window.WC_DATA = {
    "home": "NED",
    "away": "MAR",
    "venue": "蒙特雷",
-   "result": null,
-   "score": null,
+   "result": "D",
+   "score": "1-1 (点球2-3)",
    "espnId": "760488"
   },
   {
    "id": 77,
    "stage": "r32",
    "group": null,
-   "date": "2026-06-30",
-   "t": null,
-   "home": null,
-   "away": null,
+   "date": "2026-07-01",
+   "t": "01:00",
+   "home": "CIV",
+   "away": "NOR",
    "venue": "待定",
    "result": null,
-   "score": null
+   "score": null,
+   "espnId": "760490"
   },
   {
    "id": 78,
    "stage": "r32",
    "group": null,
    "date": "2026-07-01",
-   "t": null,
-   "home": null,
-   "away": null,
+   "t": "05:00",
+   "home": "FRA",
+   "away": "SWE",
    "venue": "待定",
    "result": null,
-   "score": null
+   "score": null,
+   "espnId": "760492"
   },
   {
    "id": 79,
    "stage": "r32",
    "group": null,
    "date": "2026-07-01",
-   "t": null,
-   "home": null,
-   "away": null,
-   "venue": "待定",
+   "t": "09:00",
+   "home": "MEX",
+   "away": "ECU",
+   "venue": "墨西哥城",
    "result": null,
-   "score": null
+   "score": null,
+   "espnId": "760491"
   },
   {
    "id": 80,
