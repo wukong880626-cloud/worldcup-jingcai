@@ -1,5 +1,5 @@
 window.WC_DATA = {
- "updated": "2026-07-02T15:38:44+08:00",
+ "updated": "2026-07-03T15:31:25+08:00",
  "matches": [
   {
    "id": 1,
@@ -1004,8 +1004,8 @@ window.WC_DATA = {
    "home": "ESP",
    "away": "AUT",
    "venue": "待定",
-   "result": null,
-   "score": null,
+   "result": "H",
+   "score": "3-0",
    "espnId": "760497"
   },
   {
@@ -1017,8 +1017,8 @@ window.WC_DATA = {
    "home": "POR",
    "away": "CRO",
    "venue": "多伦多",
-   "result": null,
-   "score": null,
+   "result": "H",
+   "score": "2-1",
    "espnId": "760496"
   },
   {
@@ -1030,45 +1030,48 @@ window.WC_DATA = {
    "home": "SUI",
    "away": "ALG",
    "venue": "温哥华",
-   "result": null,
-   "score": null,
+   "result": "H",
+   "score": "2-0",
    "espnId": "760498"
   },
   {
    "id": 86,
    "stage": "r32",
    "group": null,
-   "date": "2026-07-03",
-   "t": null,
-   "home": null,
-   "away": null,
+   "date": "2026-07-04",
+   "t": "02:00",
+   "home": "AUS",
+   "away": "EGY",
    "venue": "待定",
    "result": null,
-   "score": null
+   "score": null,
+   "espnId": "760499"
   },
   {
    "id": 87,
    "stage": "r32",
    "group": null,
    "date": "2026-07-04",
-   "t": null,
-   "home": null,
-   "away": null,
+   "t": "06:00",
+   "home": "ARG",
+   "away": "CPV",
    "venue": "待定",
    "result": null,
-   "score": null
+   "score": null,
+   "espnId": "760500"
   },
   {
    "id": 88,
    "stage": "r32",
    "group": null,
    "date": "2026-07-04",
-   "t": null,
-   "home": null,
-   "away": null,
+   "t": "09:30",
+   "home": "COL",
+   "away": "GHA",
    "venue": "待定",
    "result": null,
-   "score": null
+   "score": null,
+   "espnId": "760501"
   },
   {
    "id": 89,
