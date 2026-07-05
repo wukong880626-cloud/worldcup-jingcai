@@ -1,5 +1,5 @@
 window.WC_DATA = {
- "updated": "2026-07-04T14:55:08+08:00",
+ "updated": "2026-07-05T13:22:39+08:00",
  "matches": [
   {
    "id": 1,
@@ -1082,8 +1082,8 @@ window.WC_DATA = {
    "home": "CAN",
    "away": "MAR",
    "venue": "待定",
-   "result": null,
-   "score": null,
+   "result": "A",
+   "score": "0-3",
    "espnId": "760502"
   },
   {
@@ -1095,8 +1095,8 @@ window.WC_DATA = {
    "home": "PAR",
    "away": "FRA",
    "venue": "待定",
-   "result": null,
-   "score": null,
+   "result": "A",
+   "score": "0-1",
    "espnId": "760503"
   },
   {
@@ -1104,24 +1104,26 @@ window.WC_DATA = {
    "stage": "r16",
    "group": null,
    "date": "2026-07-06",
-   "t": null,
-   "home": null,
-   "away": null,
+   "t": "04:00",
+   "home": "BRA",
+   "away": "NOR",
    "venue": "待定",
    "result": null,
-   "score": null
+   "score": null,
+   "espnId": "760504"
   },
   {
    "id": 92,
    "stage": "r16",
    "group": null,
    "date": "2026-07-06",
-   "t": null,
-   "home": null,
-   "away": null,
-   "venue": "待定",
+   "t": "08:00",
+   "home": "MEX",
+   "away": "ENG",
+   "venue": "墨西哥城",
    "result": null,
-   "score": null
+   "score": null,
+   "espnId": "760505"
   },
   {
    "id": 93,
