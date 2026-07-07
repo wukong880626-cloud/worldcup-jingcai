@@ -1,5 +1,5 @@
 window.WC_DATA = {
- "updated": "2026-07-07T15:49:43+08:00",
+ "updated": "2026-07-08T02:09:57+08:00",
  "matches": [
   {
    "id": 1,
@@ -1160,8 +1160,8 @@ window.WC_DATA = {
    "home": "ARG",
    "away": "EGY",
    "venue": "待定",
-   "result": null,
-   "score": null,
+   "result": "H",
+   "score": "3-2",
    "espnId": "760509"
   },
   {
