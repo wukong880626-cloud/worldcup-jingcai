@@ -1,5 +1,5 @@
 window.WC_DATA = {
- "updated": "2026-07-08T02:09:57+08:00",
+ "updated": "2026-07-08T14:35:41+08:00",
  "matches": [
   {
    "id": 1,
@@ -1173,8 +1173,8 @@ window.WC_DATA = {
    "home": "SUI",
    "away": "COL",
    "venue": "温哥华",
-   "result": null,
-   "score": null,
+   "result": "D",
+   "score": "0-0 (点球4-3)",
    "espnId": "760508"
   },
   {
