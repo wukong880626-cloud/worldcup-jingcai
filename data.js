@@ -1,5 +1,5 @@
 window.WC_DATA = {
- "updated": "2026-07-09T13:00:11+08:00",
+ "updated": "2026-07-10T15:46:42+08:00",
  "matches": [
   {
    "id": 1,
@@ -1186,21 +1186,22 @@ window.WC_DATA = {
    "home": "FRA",
    "away": "MAR",
    "venue": "待定",
-   "result": null,
-   "score": null,
+   "result": "H",
+   "score": "2-0",
    "espnId": "760510"
   },
   {
    "id": 98,
    "stage": "qf",
    "group": null,
-   "date": "2026-07-10",
-   "t": null,
-   "home": null,
-   "away": null,
+   "date": "2026-07-11",
+   "t": "03:00",
+   "home": "ESP",
+   "away": "BEL",
    "venue": "待定",
    "result": null,
-   "score": null
+   "score": null,
+   "espnId": "760511"
   },
   {
    "id": 99,
